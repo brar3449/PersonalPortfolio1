@@ -5,11 +5,11 @@ body {
   font-family: Raleway;
   background-color: grey;
   padding: 25%;
-  border-style: outset;
+  min-width: 240px;
 }
 .portfolio {
   font-family: Raleway;
   background-color: grey;
   padding: 25%;
-  border-style: outset;
+  min-width: 240px;
 }
