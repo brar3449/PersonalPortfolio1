@@ -1,9 +1,15 @@
-.body {
-  padding-top: 70px;
+body {
   background-color: tan;
 }
-.main {
+.home {
   font-family: Raleway;
   background-color: grey;
   padding: 25%;
+  border-style: outset;
+}
+.portfolio {
+  font-family: Raleway;
+  background-color: grey;
+  padding: 25%;
+  border-style: outset;
 }
