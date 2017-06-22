@@ -1,6 +1,5 @@
-.jumbotron {
+.main {
   font-family: Raleway;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/68/Rocky_Mountain_National_Park_PA162782.jpg");
-  background-repeat: no-repeat;
-  background-size: auto;
+  background-color: grey;
+  padding: 25%;
 }
