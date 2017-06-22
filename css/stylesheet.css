@@ -1,5 +1,8 @@
 .home {
-  background: url("/media/Rocky_Mountain_National_Park_PA162782");
+  margin: 0;
+  /*background-image: url("/media/Rocky_Mountain_National_Park_PA162782");
+  */
+  background-color: blue;
 }
 
 h1 {
