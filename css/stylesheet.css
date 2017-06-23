@@ -6,6 +6,7 @@ body {
   background-color: grey;
   padding: 25%;
   min-width: 240px;
+  margin-bottom: -5px;
 }
 .portfolio {
   font-family: Raleway;
