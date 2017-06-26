@@ -1,21 +1,17 @@
 body {
   background-color: tan;
 }
-.home {
+.home, .portfolio, .footer{
   font-family: Raleway;
   background-color: grey;
   padding: 25%;
   min-width: 240px;
 }
-.portfolio {
-  font-family: Raleway;
-  background-color: grey;
-  padding: 25%;
-  min-width: 240px;
+
+.btn-group {
+  margin-top: 0.5em;
+  margin-right: 0.5em;
 }
-.footer {
-  font-family: Raleway;
-  background-color: grey;
-  padding: 25%;
-  min-width: 240px;
+.btn-basic {
+  background: pink;
 }
