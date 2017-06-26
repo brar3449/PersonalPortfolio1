@@ -6,9 +6,14 @@ body {
   background-color: grey;
   padding: 25%;
   min-width: 240px;
-  margin-bottom: -5px;
 }
 .portfolio {
+  font-family: Raleway;
+  background-color: grey;
+  padding: 25%;
+  min-width: 240px;
+}
+.footer {
   font-family: Raleway;
   background-color: grey;
   padding: 25%;

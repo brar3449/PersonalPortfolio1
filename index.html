@@ -18,15 +18,16 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!--Fixed NavBar-->
-      <nav class="navbar navbar-default navbar-fixed-top">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
           <div class="col-xs-12">
           <ul class="nav navbar-nav navbar-right">
-            <li class="text-center"><a href="#">Home  </a></li>
+            <li class="text-center"><a href="#home">Home</a></li>
+            <li class="text-center"><a href="#portfolio">Portfolio</a></li>
+            <li class="text-center"><a href="#footer">Footer</a></li>
           </ul>
-          <p>Goodbye World</p>
         </div>
       </div>
       </nav>
@@ -35,21 +36,27 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="panel-group">
-            <div class="home panel panel-default">
+            <div class="home panel panel-default" id="home">
               <h1 class="text-center">Brett Armstrong</h1>
             </div>
         <!--Portfolio section-->
-            <div class="portfolio panel panel-default">
+            <div class="portfolio panel panel-default" id="portfolio">
               <h1 class="text-center">Portfolio</h1>
+            </div>
+            <div class="footer panel panel-default" id="footer">
+              <h1 class="text-center">Footer</h1>
             </div>
           </div>
         </div>
       </div>
 
 
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>
