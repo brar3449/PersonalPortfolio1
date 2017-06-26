@@ -18,11 +18,12 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <!--Fixed NavBar-->
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="col-xs-12">
+  <body>
+    <!--Fixed Navbar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="col-xs-12">
+        <div id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li class="text-center"><a href="#home">Home</a></li>
             <li class="text-center"><a href="#portfolio">Portfolio</a></li>
@@ -57,6 +58,27 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+    //credit to W3schools bootstrap documentation for this code
+    $(document).ready(function(){
+        $('body').scrollspy({target: ".navbar", offset: 50});
+
+        $("#myNavbar a").on('click', function(event){
+          if (this.hash !== "") {
+            event.preventDefault();
+
+            var hash = this.hash;
+
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+              window.location.hash = hash;
+            });
+          }
+        });
+      });
+    </script>
 
   </body>
 </html>
