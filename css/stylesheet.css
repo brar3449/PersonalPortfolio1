@@ -14,4 +14,11 @@ body {
 }
 .btn-basic {
   background: pink;
+  color: green;
 }
+ .navbar {
+   background-color: purple;
+ }
+ .btn{
+   color: green;
+ }
