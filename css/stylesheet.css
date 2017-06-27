@@ -1,13 +1,24 @@
 body {
   background-color: tan;
 }
-.home, .portfolio, .footer{
+.home {
+  font-family: Raleway;
+  background-color: grey;
+  padding: 10%;
+  min-width: 240px;
+}
+.portfolio {
   font-family: Raleway;
   background-color: grey;
   padding: 25%;
   min-width: 240px;
 }
-
+.footer {
+  font-family: Raleway;
+  background-color: grey;
+  padding: 25%;
+  min-width: 240px;
+}
 .btn-group {
   margin-top: 0.5em;
   margin-right: 0.5em;
@@ -22,3 +33,13 @@ body {
  .btn{
    color: green;
  }
+ #bio-img {
+  width: 75%;
+  border-radius: 50%;
+  margin: auto;
+ }
+.main-title {
+  font-size: 50px;
+  color: blue;
+  margin: auto;
+}
