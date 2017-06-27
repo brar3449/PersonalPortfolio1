@@ -37,10 +37,14 @@ body {
  #bio-img {
   width: 75%;
   border-radius: 50%;
-  margin: auto;
+
  }
 .main-title {
-  font-size: 50px;
-  color: blue;
+  text-align: right;
   margin: auto;
+  padding: 15%;
+}
+.panel, .panel-group {
+  margin: 0px;
+  border-color: black;
 }
