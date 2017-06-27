@@ -7,12 +7,18 @@ body {
   background-color: grey;
   padding: 2em;
   min-width: 240px;
+  border-color: black;
+  border-width: thin;
+  border-style: solid;
 }
-.portfolio {
+#portfolio {
   font-family: Raleway;
   background-color: grey;
-  padding: 25%;
+  padding: %;
   min-width: 240px;
+  border-color: black;
+  border-width: thin;
+  border-style: solid;
 }
 .footer {
   font-family: Raleway;
@@ -44,7 +50,9 @@ body {
   margin: auto;
   padding: 15%;
 }
-.panel, .panel-group {
-  margin: 0px;
+.portfolio-img {
+  max-width: 100%;
+  max-height: 100%;
   border-color: black;
+  border-width: thin;
 }
