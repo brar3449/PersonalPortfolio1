@@ -2,28 +2,9 @@ body {
   background-color: tan;
   margin-top: 50px;
 }
-.home {
+.home, .portfolio, .footer, .contact{
   font-family: Raleway;
   background-color: grey;
-  padding:
-  min-width: 240px;
-  border-color: black;
-  border-width: thin;
-  border-style: solid;
-}
-#portfolio {
-  font-family: Raleway;
-  background-color: grey;
-  padding: %;
-  min-width: 240px;
-  border-color: black;
-  border-width: thin;
-  border-style: solid;
-}
-.footer {
-  font-family: Raleway;
-  background-color: grey;
-
   min-width: 240px;
   border-color: black;
   border-width: thin;
@@ -48,15 +29,23 @@ body {
   border-radius: 50%;
   margin: auto;
   margin-top: 2em;
+  margin-bottom: 2em;
   display: block;
  }
 .main-title {
   text-align: right;
   margin: auto;
+  display: block;
 }
+
 .portfolio-img {
   max-width: 100%;
   max-height: 100%;
   border-color: black;
   border-width: thin;
+}
+hr {
+  margin-left: 2em;
+  margin-right: 2em;
+  border-color: black;
 }

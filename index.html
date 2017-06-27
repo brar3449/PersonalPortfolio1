@@ -42,7 +42,7 @@
           <div class="btn-group nav navbar-nav navbar-right">
             <button type="button" class="btn btn-basic"><a href="#home" id="about-btn">About</a></button>
             <button type="button" class="btn btn-basic"><a href="#portfolio" id="portfolio-btn">Portfolio</a></button>
-            <button type="button" class="btn btn-basic"><a href="#footer" id="footer-btn">Footer</a></button>
+            <button type="button" class="btn btn-basic"><a href="#contact" id="contact-btn">Contact</a></button>
           </div>
         </div>
       </div>
@@ -55,8 +55,8 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-8">
-                    <br>
-                      <h3 class="text-center main-title">Brett Armstrong Front-End Web Development</h3>
+                    <div class="main-title">
+                      <h3>Brett Armstrong Front-End Web Development</h3>
                       <br>
                       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                         Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
@@ -64,6 +64,7 @@
                         ridiculus mus. Donec quam felis, ultricies nec, pellentesque
                         eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
                         pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+                      </div>
                   </div>
                   <div class="col-md-4">
                     <!--Link to online img: https://s3-us-west-2.amazonaws.com/barmstrong-personal-portfolio/bio-img.png-->
@@ -77,18 +78,24 @@
             <div class="portfolio" id="portfolio">
               <div class="container">
                 <div class="row">
+                  <br>
                     <h1 class="text-center">Portfolio</h1>
+                  <hr>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <a href="https://codepen.io/brar3449/pen/VWWjGp" target="_blank">
+                      <img class="portfolio-img" src="media\ResumeProject.PNG"></a>
                   </div>
-                    <div class="row">
-                    <div class="col-md-6">
-                      <img class="portfolio-img" src="media\ResumeProject.PNG">
-                    </div>
-                    <div class="col-md-6">
-                      <img class="portfolio-img" src="media\ResumeProject.PNG">
-                    </div>
+                  <div class="col-md-6">
+                    <img class="portfolio-img" src="media\ResumeProject.PNG">
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="contact" id="contact">
+              <h3>Contact</h3>
+            </div>
             <div class="footer" id="footer">
               <h1 class="text-center">Footer</h1>
             </div>
@@ -122,6 +129,6 @@
     </script>
     <script>$("#about-btn").css("color", "green");</script>
     <script>$("#portfolio-btn").css("color", "green");</script>
-    <script>$("#footer-btn").css("color", "green");</script>
+    <script>$("#contact-btn").css("color", "green");</script>
   </body>
 </html>
